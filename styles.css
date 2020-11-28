@@ -21,6 +21,7 @@ body {
                                             rgba(97, 255, 246, 1) 79.34%, #FFFFFF 80%);
 }
 .Logo{
+    width: fit-content;
     align-self: center;
     animation: fill-anim 1s ease forwards 5s;
 }
@@ -86,6 +87,7 @@ body {
 }
 
 a {
+    font-size: x-small;
     text-decoration: none;
     color: var(--headercolor);
 }
@@ -250,7 +252,11 @@ footer {
     display: inline-block;
     padding: .4em;
 }
-
+@media screen and (min-width: 500px) {
+    a{
+        font-size: medium;
+    }
+}
 @media screen and (min-width: 768px) {
     body {
         background: linear-gradient(160.31deg, #FFFFFF 70%, rgba(97, 255, 246, 1) 77.34%,
