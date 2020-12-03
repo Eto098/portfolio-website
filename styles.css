@@ -1,3 +1,6 @@
+/* ///////////\\\\\\\\\\\\\ */
+/* Mobile First Development */
+/* \\\\\\\\\\\///////////// */
 :root{
     --bgcolor: white;
     --headercolor: black;
@@ -199,7 +202,6 @@ section{
     margin: auto;
     color: var(--textcolor);
     font-size: 15px;
-
 }
 .cardHeader {
     margin: 10%;
@@ -382,6 +384,8 @@ footer {
     h4 {font-size: 22px;}
     p {font-size: 26px;}
 }
+
+/* Animations for SVG "ETEM KOSENCIG" */
 @keyframes line-anim{
     to{
         stroke-dashoffset: 0;
